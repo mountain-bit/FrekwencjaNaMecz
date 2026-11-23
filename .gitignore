@@ -1,0 +1,72 @@
+# Dane, bazy danych i wytrenowane modele
+/data/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Artefakty treningowe ML (CatBoost, TensorBoard, itp.)
+catboost_info/
+runs/
+lightning_logs/
+wandb/
+mlruns/
+
+# Katalogi robocze i tymczasowe
+scratch/
+tmp/
+temp/
+*.log
+
+# Python - pliki kompilacji i cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Wirtualne środowiska
+.venv/
+venv/
+ENV/
+env/
+
+# Testy i narzędzia jakości kodu
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Zmienne środowiskowe i sekrety
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE i edytory
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pliki systemowe (Windows / macOS)
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Dokumentacja i notatki Markdown (z wyjątkiem README.md)
+*.md
+!README.md
+
+
+architektura_
